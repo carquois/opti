@@ -1,0 +1,15 @@
+
+
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteBase /
+	
+	#RewriteCond %{HTTP_HOST} ^(www\.)?opti-rep.com$
+	#RewriteRule ^$ http://www.opti-rep.com/rep.php [L,R=301]
+	
+	#RewriteCond %{HTTP_HOST} ^(www\.)?opti-guide.com$
+	#RewriteRule ^$ http://www.opti-guide.com/guide.php [L,R=301]
+
+
+</IfModule>
+

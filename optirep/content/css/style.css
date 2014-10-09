@@ -1,0 +1,75 @@
+@import "bootstrap.min.css";
+@import "bootstrap-dialog.min.css";
+@import "dataTables.bootstrap.css";
+
+html {
+	position: relative;
+	min-height: 100%;
+	width: 100%;
+  	
+}
+
+
+body {
+	
+	padding-bottom: 50px;
+}
+
+footer {
+	background: #F5F5F5;
+	border-top:solid 1px #E1E1E1;
+	position: absolute;
+	padding-top: 5px;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+	color: #999;
+	box-sizing: border-box;
+	
+
+}
+
+.tab-content {
+	
+}
+
+.tab-pane {
+	
+	padding-top: 25px;
+}
+
+.form-inline {
+	
+}
+.form-inline label {
+	/*color:pink;*/
+	float: left;
+	margin-top:-25px;
+	/*border: solid 1px #000;*/
+	display: inline-block;
+}
+
+.table td:first-child  {
+	/*text-align: center;*/
+	padding-left: 12px;
+	/*border: solid 1px #000;*/
+}
+
+.nav select {
+	
+	margin-top: 7px;
+}
+
+#site_configs input {
+	
+	width: 100%;
+}
+
+#site_configs th:first-child {
+	
+	width: 30%;
+}
+#site_configs th:last-child {
+	
+	width: 40%;
+}

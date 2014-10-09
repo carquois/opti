@@ -1,0 +1,140 @@
+@import "../../../../content/css/bootstrap.min.css";
+@import "../../../../content/css/bootstrap-dialog.min.css";
+@import "../../../../content/css/dataTables.bootstrap.css";
+@import "../../../../content/css/bootstrap-progressbar-3.0.3.css";
+
+
+
+@import "theme.default.css";
+
+/*********************************************************************
+ The following is used to override the css classes
+ in bootstrap-dialog.css. The action is need to make sure
+ that the proper zindex staking is applied. Espacally on autocomplete
+ input. This will make sure that the autocomplete list box appears
+ below the textbox input.
+ ********************************************************************/
+.pac-container {
+    background-color: #FFF;
+    z-index: 20;
+    position: fixed;
+    display: inline-block;
+    float: left;
+}
+.modal{
+    z-index: 20;   
+}
+.modal-backdrop{
+    z-index: 10;        
+}
+
+
+/********************************************************************/
+
+
+html {
+	position: relative;
+	min-height: 100%;
+	width: 100%;
+  	
+}
+
+body {
+	
+	padding-bottom: 100px;
+}
+
+footer {
+	background: #F5F5F5;
+	border-top:solid 1px #E1E1E1;
+	position: absolute;
+	padding-top: 5px;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+	color: #999;
+	box-sizing: border-box;
+	
+
+}
+
+.tab-content {
+	
+}
+
+.tab-pane {
+	
+	padding-top: 25px;
+}
+
+.btn-file {
+		position: relative;
+		overflow: hidden;
+	}
+	.btn-file input[type=file] {
+		position: absolute;
+		top: 0;
+		right: 0;
+		min-width: 100%;
+		min-height: 100%;
+		font-size: 999px;
+		text-align: right;
+		filter: alpha(opacity=0);
+		opacity: 0;
+		background: red;
+		cursor: inherit;
+		display: block;
+	}
+	input[readonly] {
+		background-color: white !important;
+		cursor: text !important;
+	}
+
+
+form input {
+	/*margin-bottom: 10px;*/
+}
+
+.form-inline {
+	
+}
+
+
+.form-inline label {
+	/*background: pink;*/
+	/*float: left;*/
+	/*margin-top:-25px;*/
+	/*border: solid 1px yellow;*/
+	
+	
+}
+
+.form-inline > .form-group {
+
+	
+}
+
+.table td:first-child  {
+	/*text-align: center;*/
+	padding-left: 12px;
+	/*border: solid 1px #000;*/
+}
+
+.nav select {
+	
+	margin-top: 7px;
+}
+
+#site_configs input {
+	
+	width: 100%;
+}
+
+#site_configs th:first-child {
+	
+	width: 30%;
+}
+#site_configs th:last-child {
+	
+	width: 40%;
+}
